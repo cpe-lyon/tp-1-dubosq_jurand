@@ -37,17 +37,17 @@ Pour trouver cette section, nous avons utilisé la commande *man 6 intro*.
 7. Pour créer l'arborescence demandée, on tape les commandes suivantes suivantes dans cet ordre :
 
 	>*cd . ./. ./home
-sudo mkdir dossier1
-cd dossier1
-sudo touch fichier1
-cd . .
-sudo mkdir dossier2
-cd dossier2
-sudo mkdir dossier2.1
-sudo mkdir dossier2.2
-cd dossier2.2
-sudo touch fichier2
-sudo touch fichier3*
+	>sudo mkdir dossier1
+	>cd dossier1
+	>sudo touch fichier1
+	>cd . .
+	>sudo mkdir dossier2
+	>cd dossier2
+	>sudo mkdir dossier2.1
+	>sudo mkdir dossier2.2
+	>cd dossier2.2
+	>sudo touch fichier2
+	>sudo touch fichier3*
 
 8. On ne peut pas supprimer *fichier1* car celui-ci n'est pas directement dans le dossier dans lequel on se trouve. On ne peut pas non plus supprimer *dossier1*, car c'est un *directory* et non un fichier.
 
